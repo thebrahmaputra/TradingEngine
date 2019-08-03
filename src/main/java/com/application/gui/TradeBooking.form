@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.application.gui.TradeBooking">
+  <grid id="27dc6" binding="mainView" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <font size="48"/>
+      <toolTipText value="MainView"/>
+      <verifyInputWhenFocusTarget value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="baaf4" class="javax.swing.JTextArea" binding="mainHeader">
+        <constraints border-constraint="North"/>
+        <properties>
+          <enabled value="true"/>
+          <text value="Trade Astra"/>
+        </properties>
+      </component>
+      <component id="5c1eb" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints border-constraint="West"/>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
