@@ -1,0 +1,21 @@
+<assembly>
+    <id>proc</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>com/application/dbagent</directory>
+            <outputDirectory>dbagent</outputDirectory>
+            <includes>
+                <include>*.*</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+    <files>
+        <file>
+            <source>/target/dbwriter.${packaging}</source>
+            <destName>dbwriter.jar</destName>
+        </file>
+    </files>
+</assembly>
